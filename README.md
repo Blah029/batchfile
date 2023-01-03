@@ -10,4 +10,4 @@ Windows cmd cripts written for command-line programs in batchfile
 - realcugan-ncnn-vulkan
     - Scripts for [realcugan-ncnn-vulkan by nihui](https://github.com/nihui/realcugan-ncnn-vulkan)
 - youtube-dl
-    - [youtube-dl by ytdl-org](https://github.com/ytdl-org/youtube-dl)
+    - Scripts for [youtube-dl by ytdl-org](https://github.com/ytdl-org/youtube-dl)
