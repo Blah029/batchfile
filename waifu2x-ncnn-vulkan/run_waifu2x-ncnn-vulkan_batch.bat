@@ -1,13 +1,13 @@
-cd "D:\Program Files\Lab\CLI Programs\realcugan-ncnn-vulkan"
+cd "D:\Program Files\Lab\CLI Programs\waifu2x-ncnn-vulkan"
 
 set "INPATH=D:\User Files\Pictures\(unprocessed) batch 2"
-set "OUTPATH=D:\User Files\Pictures\(processed realCUGAN) batch 2"
+set "OUTPATH=D:\User Files\Pictures\(processed waifu2x) batch 2"
 set "NOISELEVEL=3"
 set "SCALE=2"
-set "MODEL=models-se"
+set "MODEL=models-cunet"
 
 for %%X in ("%INPATH%\*") do (
-    realcugan-ncnn-vulkan.exe -v -i "%%X" -o "%OUTPATH%\%%~nX_realCUGAN_n%NOISELEVEL%_%SCALE%x_%MODEL%.png" -n %NOISELEVEL% -s %SCALE%
+    waifu2x-ncnn-vulkan.exe -v -i "%%X" -o "%OUTPATH%\%%~nX_waifu2x_n%NOISELEVEL%_%SCALE%x_%MODEL%.png" -n %NOISELEVEL% -s %SCALE%
     )
 pause
 

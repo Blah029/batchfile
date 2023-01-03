@@ -1,10 +1,14 @@
 cd "D:\Program Files\Lab\CLI Programs\realcugan-ncnn-vulkan"
 
-set "INFOLDER=D:\User Files\Pictures\(unprocessed) batch 2"
-set "INFILE=103304335_p0.jpg"
-set "OUTFOLDER=D:\User Files\Pictures\(processed) batch 2"
+set "INPATH=D:\User Files\Pictures\(unprocessed) batch 2"
+set "INFILE=86_Eighty_Six_LN_visual_1.jpg"
+set "OUTPATH=C:\Users\ASUS\Desktop"
+set "NOISELEVEL=3"
+set "SCALE=2"
+set "MODEL=models-se"
 
-cmd /k realcugan-ncnn-vulkan.exe -i "%INFOLDER%\%INFILE%" -o "%OUTFOLDER%\%INFILE%_rcnv_se.png" -v -n 3
+realcugan-ncnn-vulkan.exe -v -i "%INPATH%\%INFILE%" -o "%OUTPATH%\%INFILE%_realCUGAN_n%NOISELEVEL%_%SCALE%x_%MODEL%.png" -n %NOISELEVEL% -s %SCALE%
+pause
 
 :: -h                   show this help
 :: -v                   verbose output
