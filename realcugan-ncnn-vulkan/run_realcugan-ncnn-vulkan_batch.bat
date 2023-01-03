@@ -1,7 +1,7 @@
 cd "D:\Program Files\CLI Programs\realcugan-ncnn-vulkan"
 
 set "INPATH=D:\User Files\Pictures\(unprocessed) batch 2"
-set "OUTPATH=D:\User Files\Pictures\(processed realCUGAN) batch 2"
+set "OUTPATH=D:\User Files\Pictures\(processed) batch 2 realCUGAN se"
 set "NOISELEVEL=3"
 set "SCALE=2"
 set "MODEL=models-se"
