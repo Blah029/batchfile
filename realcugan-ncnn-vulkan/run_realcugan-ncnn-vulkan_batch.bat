@@ -1,4 +1,4 @@
-cd "D:\Program Files\Lab\CLI Programs\realcugan-ncnn-vulkan"
+cd "D:\Program Files\CLI Programs\realcugan-ncnn-vulkan"
 
 set "INPATH=D:\User Files\Pictures\(unprocessed) batch 2"
 set "OUTPATH=D:\User Files\Pictures\(processed realCUGAN) batch 2"

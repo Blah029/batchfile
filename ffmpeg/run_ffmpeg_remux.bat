@@ -1,4 +1,4 @@
-cd  "D:\Program Files\Lab\CLI Programs\ffmpeg"
+cd  "D:\Program Files\CLI Programs\ffmpeg"
 
 set "PATH=D:\User Files\Videos"
 set "FILE=2022-10-28 19-21-53"

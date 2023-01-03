@@ -1,4 +1,4 @@
-cd "D:\Program Files\Lab\CLI Programs\AutoEq"
+cd "D:\Program Files\CLI Programs\AutoEq"
 
 set "MODEL=ASUS TUF FX504"
 set "COMPENSATION=zero"

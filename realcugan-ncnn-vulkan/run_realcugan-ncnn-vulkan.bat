@@ -1,4 +1,4 @@
-cd "D:\Program Files\Lab\CLI Programs\realcugan-ncnn-vulkan"
+cd "D:\Program Files\CLI Programs\realcugan-ncnn-vulkan"
 
 set "INPATH=D:\User Files\Pictures\(unprocessed) batch 2"
 set "INFILE=86_Eighty_Six_LN_visual_1.jpg"

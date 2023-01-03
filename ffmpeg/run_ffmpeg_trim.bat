@@ -1,7 +1,7 @@
-cd "D:\Program Files\Lab\CLI Programs\ffmpeg"
+cd "D:\Program Files\CLI Programs\ffmpeg"
 
 set "INPATH=C:\Users\ASUS\Videos\OBS\NVENC VBR - Games"
-set "OUTPATH=D:\Program Files\Lab\CLI Programs\ffmpeg"
+set "OUTPATH=D:\Program Files\CLI Programs\ffmpeg"
 set "FILE=2022-12-11 21-22-21"
 set "FORMAT=mkv"
 set "START=00:01:00"

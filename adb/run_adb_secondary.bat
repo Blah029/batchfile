@@ -1,6 +1,6 @@
 @echo off
 
-cd "D:\Program Files\Lab\CLI Programs\Android Debug Bridge"
+cd "D:\Program Files\CLI Programs\Android Debug Bridge"
 cd platform-tools
 
 adb devices
