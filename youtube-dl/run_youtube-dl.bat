@@ -8,7 +8,7 @@ youtube-dl -F %URL%
 :: set /p FORMATCODE="Format-code >>> "
 
 :: download format
-youtube-dl -f %FORMATCODE% %URL% -o "D:\User Files\Documents\Batchfile\youtube-dl\downloads\%%(title)s.%%(ext)s"
+youtube-dl -f %FORMATCODE% %URL% -o "D:\User Files\Documents\GitHub\batchfile\youtube-dl\downloads\%%(title)s.%%(ext)s"
 :: youtube-dl -f %FORMATCODE% -x --audio-format mp3 %URL%
 
 :: download highest quality audio
