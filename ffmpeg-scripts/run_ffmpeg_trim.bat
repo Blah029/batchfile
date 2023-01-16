@@ -1,16 +1,17 @@
-cd "D:\Program Files\CLI Programs\ffmpeg"
+cd "D:\Program Files\CLI Programs\ffmpeg\bin"
 
 set "INPATH=C:\Users\ASUS\Videos\OBS\NVENC VBR - Games"
-set "OUTPATH=D:\Program Files\CLI Programs\ffmpeg"
-set "FILE=2022-12-11 21-22-21"
+set "OUTPATH=C:\Users\ASUS\Desktop"
+set "FILE=2023-01-17 00-07-26"
 set "FORMAT=mkv"
-set "START=00:01:00"
-set "END=00:01:19"
+set "START=00:00:05"
+set "DURATION=00:08:32"
 
-::initial black sceen
-cmd /k cd bin && ffmpeg -i "%INPATH%\%FILE%.%FORMAT%" -ss %START% -to %END% -c copy "%OUTPATH%\%FILE% trimmed.%FORMAT%"
+::trim start
+:: ffmpeg -ss %START% -i "%INPATH%\%FILE%.%FORMAT%" -c copy "%OUTPATH%\%FILE% trimmed_s.%FORMAT%"
 
-:: cmd /k cd bin && ffmpeg -i "%INPATH%\%FILE%.%FORMAT%" -to %END% -c copy "%OUTPATH%\%FILE% trimmed.%FORMAT%"
+::trim end
+:: ffmpeg -i "%INPATH%\%FILE%.%FORMAT%" -t %DURATION% -c copy "%OUTPATH%\%FILE% trimmed_e.%FORMAT%"
 
-::initial black screen
-:: cmd /k cd bin && ffmpeg -i "%INPATH%\%FILE%.%FORMAT%" -ss %START% -c copy "%OUTPATH%\%FILE% trimmed.%FORMAT%"
+::trim both
+ffmpeg -ss %START% -i "%INPATH%\%FILE%.%FORMAT%" -t %DURATION% -c copy "%OUTPATH%\%FILE% trimmed_se.%FORMAT%"
