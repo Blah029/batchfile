@@ -1,9 +1,0 @@
-list formats
-youtube-dl -F <url>
-
-download format
-youtube-dl -f <format no.> <url>
-
-download audio
-youtube-dl -f bestaudio <url>
-youtube-dl -f bestaudio -x --audio-format mp3 <url>
