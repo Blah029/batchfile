@@ -26,6 +26,9 @@ for %%X in (
     "com.samsung.android.ardrawing"
     "com.samsung.android.aremoji"
     "com.samsung.android.arzone"
+    "com.samsung.android.easysetup"
+    "com.samsung.android.beaconmanager"
+    "com.samsung.android.ststub"
     "com.samsung.android.game.gamehome"
     "com.samsung.android.livestickers"
 
