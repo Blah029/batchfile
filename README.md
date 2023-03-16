@@ -11,5 +11,7 @@ Windows cmd cripts written for command-line programs in batchfile
     - Script for single branch shallow cloning
 - realcugan-ncnn-vulkan
     - Scripts for [realcugan-ncnn-vulkan](https://github.com/nihui/realcugan-ncnn-vulkan) by nihui
-- youtube-dl
+- youtube-dl (discontinued)
     - Scripts for [youtube-dl](https://github.com/ytdl-org/youtube-dl) by ytdl-org
+- yt-dlp
+    - Scripts for [yt-dlp](https://github.com/yt-dlp/yt-dlp) by yt-dlp
