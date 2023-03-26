@@ -1,8 +1,8 @@
 cd  "D:\Program Files\CLI Programs\ffmpeg"
 
-set "PATH=D:\User Files\Videos"
-set "FILE=2022-10-28 19-21-53"
-set "INPUTFORMAT=mkv"
-set "OUTPUTFORMAT=mp4"
+set "PATH=D:\User Files\Documents\Premier Pro\ee596Assignment01\Recordings\Vishmi"
+set "FILE=WhatsApp Audio 2023-03-26 at 10.35.06"
+set "INPUTFORMAT=ogg"
+set "OUTPUTFORMAT=m4a"
 
-cmd /k cd bin && ffmpeg -i "%PATH%\%FILE%.%INPUTFORMAT%" -c copy "%PATH%\%FILE% remuxed.%OUTPUTFORMAT%"
+cd bin && ffmpeg -i "%PATH%\%FILE%.%INPUTFORMAT%" -c copy "%PATH%\%FILE% remuxed.%OUTPUTFORMAT%"
