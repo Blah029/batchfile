@@ -1,15 +1,14 @@
 cd "D:\Program Files\CLI Programs\waifu2x-ncnn-vulkan"
 
-set "INFOLDER=D:\User Files\Pictures\(unprocessed) batch 2"
-set "INFILE=86_Eighty_Six_LN_visual_1.jpg"
-set "OUTFOLDER=C:\Users\ASUS\Desktop"
+set "INPATH=C:\Users\ASUS\Desktop"
+set "INFILE=home02_cropped.png"
+set "OUTPATH=C:\Users\ASUS\Desktop"
 set "NOISELEVEL=3"
 set "SCALE=2"
 set "MODEL=models-cunet"
 
-waifu2x-ncnn-vulkan.exe -v -i "%INFOLDER%\%INFILE%" -o "%OUTFOLDER%\%INFILE%_waifu2x_n%NOISELEVEL%_%SCALE%x_%MODEL%.png" -n %NOISELEVEL% -s %SCALE%
+waifu2x-ncnn-vulkan.exe -v -i "%INPATH%\%INFILE%" -o "%OUTPATH%\%INFILE%_waifu2x_n%NOISELEVEL%_%SCALE%x_%MODEL%.png" -n %NOISELEVEL% -s %SCALE%
 pause
-
 
 :: -h                   show this help
 :: -v                   verbose output

@@ -1,7 +1,7 @@
 cd "D:\Program Files\CLI Programs\realcugan-ncnn-vulkan"
 
-set "INPATH=D:\User Files\Pictures\(unprocessed) batch 2"
-set "INFILE=86_Eighty_Six_LN_visual_1.jpg"
+set "INPATH=C:\Users\ASUS\Desktop"
+set "INFILE=home02_cropped.png"
 set "OUTPATH=C:\Users\ASUS\Desktop"
 set "NOISELEVEL=3"
 set "SCALE=2"
