@@ -19,7 +19,7 @@ pause
 :: -s scale             upscale ratio (1/2/3/4, default=2)
 :: -t tile-size         tile size (>=32/0=auto, default=0) can be 0,0,0 for multi-gpu
 :: -c syncgap-mode      sync gap mode (0/1/2/3, default=3)
-:: -m model-path        realcugan model path (default=models-se)
+:: -m model-path        realcugan model path (default=models-cunet)
 :: -g gpu-id            gpu device to use (-1=cpu, default=auto) can be 0,1,2 for multi-gpu
 :: -j load:proc:save    thread count for load/proc/save (default=1:2:2) can be 1:2,2,2:2 for multi-gpu
 :: -x                   enable tta mode
