@@ -13,4 +13,5 @@ git config core.sparseCheckout true
 echo %DIR%/*> .git/info/sparse-checkout
 git pull --depth=%DEPTH% origin main
 
+pause
 endlocal

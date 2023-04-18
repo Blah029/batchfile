@@ -7,4 +7,5 @@ set "DEPTH=1"
 
 git clone --depth %DEPTH% -b %BRANCH% %URL%
 
+pause
 endlocal
