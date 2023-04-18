@@ -1,4 +1,5 @@
 @echo off
+setlocal
 
 cd "D:\Program Files\CLI Programs\Android Debug Bridge"
 cd platform-tools
@@ -36,3 +37,4 @@ pause
 
 adb kill-server
 cd ..\
+endlocal

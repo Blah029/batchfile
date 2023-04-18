@@ -1,3 +1,4 @@
+setlocal
 cd "D:\Program Files\CLI Programs\youtube-dl"
 
 set "URL=https://www.youtube.com/watch?v=-RxE_7uSDVg"
@@ -16,3 +17,4 @@ youtube-dl -F %URL%
 :: youtube-dl -f bestaudio -x --audio-format mp3 %URL%
 
 pause
+endlocal

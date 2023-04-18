@@ -1,3 +1,4 @@
+setlocal
 cd "D:\User Files\Documents\GitHub\autoeq-workspace"
 
 set "MODEL=ASUS TUF FX504"
@@ -12,3 +13,5 @@ python -m autoeq --input-dir="my_data\%MODEL%" --output-dir="my_results\%MODEL%"
 python -m autoeq --input-dir="my_data\%MODEL%" --output-dir="my_results\%MODEL%\%MODEL% 7BandEQ" --compensation="compensation\%COMPENSATION%.csv" --fixed-band-eq --fixed-band-eq-config=f7beq.yaml --bass-boost=%BASSBOOST% --standardize-input
 
 python -m autoeq --input-dir="my_data\%MODEL%" --output-dir="my_results\%MODEL%\%MODEL% 9BandEQ" --compensation="compensation\%COMPENSATION%.csv" --fixed-band-eq --fixed-band-eq-config=f9beq.yaml --bass-boost=%BASSBOOST% --standardize-input
+
+endlocal

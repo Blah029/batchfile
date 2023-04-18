@@ -1,3 +1,4 @@
+setlocal
 cd "D:\Program Files\CLI Programs\realsr-ncnn-vulkan"
 
 set "INPATH=C:\Users\ASUS\Desktop"
@@ -7,7 +8,9 @@ set "SCALE=4"
 set "MODEL=models-DF2K_JPEG"
 
 realsr-ncnn-vulkan.exe -v -i "%INPATH%\%INFILE%" -o "%OUTPATH%\%INFILE%_realsr_n%NOISELEVEL%_%SCALE%x_%MODEL%.png" -s %SCALE%
+
 pause
+endlocal
 
 :: -h                   show this help
 :: -v                   verbose output

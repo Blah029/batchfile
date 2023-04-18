@@ -1,3 +1,4 @@
+setlocal
 cd "D:\Program Files\CLI Programs\ffmpeg\bin"
 
 set "INPATH=C:\Users\ASUS\Videos\OBS\NVENC VBR - Games"
@@ -15,3 +16,5 @@ set "DURATION=00:08:32"
 
 ::trim both
 ffmpeg -ss %START% -i "%INPATH%\%FILE%.%FORMAT%" -t %DURATION% -c copy "%OUTPATH%\%FILE% trimmed_se.%FORMAT%"
+
+endlocal

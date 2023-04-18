@@ -1,3 +1,4 @@
+setlocal
 cd "D:\Program Files\CLI Programs\waifu2x-ncnn-vulkan"
 
 set "INPATH=D:\User Files\Pictures\(unprocessed) batch 2"
@@ -9,7 +10,9 @@ set "MODEL=models-cunet"
 for %%X in ("%INPATH%\*") do (
     waifu2x-ncnn-vulkan.exe -v -i "%%X" -o "%OUTPATH%\%%~nX_waifu2x_n%NOISELEVEL%_%SCALE%x_%MODEL%.png" -n %NOISELEVEL% -s %SCALE%
     )
+
 pause
+endlocal
 
 :: -h                   show this help
 :: -v                   verbose output

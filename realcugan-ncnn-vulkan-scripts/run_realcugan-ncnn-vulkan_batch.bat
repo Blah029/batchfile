@@ -1,3 +1,4 @@
+setlocal
 cd "D:\Program Files\CLI Programs\realcugan-ncnn-vulkan"
 
 set "INPATH=D:\User Files\Pictures\(unprocessed) batch 2"
@@ -9,7 +10,9 @@ set "MODEL=models-se"
 for %%X in ("%INPATH%\*") do (
     realcugan-ncnn-vulkan.exe -v -i "%%X" -o "%OUTPATH%\%%~nX_realCUGAN_n%NOISELEVEL%_%SCALE%x_%MODEL%.png" -n %NOISELEVEL% -s %SCALE%
     )
+
 pause
+endlocal
 
 :: -h                   show this help
 :: -v                   verbose output

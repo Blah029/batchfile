@@ -1,3 +1,4 @@
+setlocal
 cd "D:\Program Files\CLI Programs\waifu2x-ncnn-vulkan"
 
 set "INPATH=C:\Users\ASUS\Desktop"
@@ -8,7 +9,9 @@ set "SCALE=2"
 set "MODEL=models-cunet"
 
 waifu2x-ncnn-vulkan.exe -v -i "%INPATH%\%INFILE%" -o "%OUTPATH%\%INFILE%_waifu2x_n%NOISELEVEL%_%SCALE%x_%MODEL%.png" -n %NOISELEVEL% -s %SCALE%
+
 pause
+endlocal
 
 :: -h                   show this help
 :: -v                   verbose output
