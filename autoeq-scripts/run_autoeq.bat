@@ -1,8 +1,8 @@
 setlocal
-cd "D:\User Files\Documents\GitHub\autoeq-workspace"
+cd "C:\Users\User Files\Documents\GitHub\autoeq-workspace"
 
-set "MODEL=ASUS TUF FX504"
-set "COMPENSATION=zero"
+set "MODEL=_convolution"
+set "COMPENSATION=_convolution"
 set "BASSBOOST=0"
 set "SAMPLERATE=44100,48000"
 
