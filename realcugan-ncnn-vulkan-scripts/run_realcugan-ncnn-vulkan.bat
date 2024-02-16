@@ -1,9 +1,9 @@
 setlocal
-cd "D:\Program Files\CLI Programs\realcugan-ncnn-vulkan"
+cd "C:\Users\User Programs\CLI Programs\realcugan-ncnn-vulkan"
 
-set "INPATH=C:\Users\ASUS\Desktop"
-set "INFILE=home02_cropped.png"
-set "OUTPATH=C:\Users\ASUS\Desktop"
+set "INPATH=C:\Users\User\Desktop"
+set "INFILE=freieren wallpaper.jpg"
+set "OUTPATH=C:\Users\User\Desktop"
 set "NOISELEVEL=3"
 set "SCALE=2"
 set "MODEL=models-se"
