@@ -1,10 +1,10 @@
 setlocal
 cd "C:\Users\User Programs\CLI Programs\realcugan-ncnn-vulkan"
 
-set "INPATH=C:\Users\User\Desktop"
-set "INFILE=freieren wallpaper.jpg"
+set "INPATH=C:\Users\User Files\Images\batch 3 - unprocessed"
+set "INFILE=04.png"
 set "OUTPATH=C:\Users\User\Desktop"
-set "NOISELEVEL=3"
+set "NOISELEVEL=2"
 set "SCALE=2"
 set "MODEL=models-se"
 

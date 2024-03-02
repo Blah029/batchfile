@@ -1,8 +1,9 @@
 setlocal
 cd "C:\Users\User Programs\CLI Programs\realcugan-ncnn-vulkan"
 
-set "INPATH=C:\Users\User Files\Images\batch 1 - unprocessed"
-set "OUTPATH=C:\Users\User Files\Images\batch 1 - upscaled"
+set "INPATH=C:\Users\User Files\Images\batch 3 - edited
+"
+set "OUTPATH=C:\Users\User Files\Images\batch 3 - upscaled"
 set "NOISELEVEL=2"
 set "SCALE=2"
 set "MODEL=models-se"
