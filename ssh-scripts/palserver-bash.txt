@@ -1,0 +1,22 @@
+# Zip a copy of the save without the backups
+# Viriables: path to palworld-server-docker
+#            save folder hash
+
+cd /home/nisalvpn2/palworld-server-docker/palworld/Pal/Saved/SaveGames/0 &&\
+rm -r backup_copy; \
+cp -r F34CFF2C76B64534A9BD18D80E2E9FAC/ backup_copy &&\
+cd backup_copy &&\
+rm -r backup &&\
+cd .. &&\
+zip -r save_export.zip backup_copy
+
+# Unzip and restore a backup
+
+cd /home/nisalvpn2/palworld-server-docker &&\
+mv /home/blah029/.env .env &&\
+cd palworld/Pal/Saved/SaveGames/0 &&\
+mv /home/blah029/save_import.zip save_import.zip &&\
+rm -r save_import; \
+unzip save_import.zip -d save_import &&\
+mv save_import/backup_copy/ F34CFF2C76B64534A9BD18D80E2E9FAC &&\
+rm -d save_import
