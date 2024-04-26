@@ -18,5 +18,6 @@ cd palworld/Pal/Saved/SaveGames/0 &&\
 mv /home/blah029/save_import.zip save_import.zip &&\
 rm -r save_import; \
 unzip save_import.zip -d save_import &&\
+rm -r F34CFF2C76B64534A9BD18D80E2E9FAC; \
 mv save_import/backup_copy/ F34CFF2C76B64534A9BD18D80E2E9FAC &&\
 rm -d save_import
