@@ -1,12 +1,13 @@
 setlocal
 
-cd  "D:\Program Files\CLI Programs\ffmpeg"
+cd  "C:\Users\User Programs\CLI Programs\ffmpeg\bin"
 
-set "PATH=D:\User Files\Documents\Premier Pro\ee596Assignment01\Recordings\Vishmi"
-set "FILE=WhatsApp Audio 2023-03-26 at 10.35.06"
-set "INPUTFORMAT=ogg"
-set "OUTPUTFORMAT=m4a"
+set "INPATH=C:\Users\User\Videos\OBS\NVENC VBR - Games"
+set "FILE=2024-05-05 12-05-07"
+set "INPUTFORMAT=mkv"
+set "OUTPUTFORMAT=mp4"
 
-cd bin && ffmpeg -i "%PATH%\%FILE%.%INPUTFORMAT%" -c copy "%PATH%\%FILE% remuxed.%OUTPUTFORMAT%"
+ffmpeg -i "%INPATH%\%FILE%.%INPUTFORMAT%" -c copy "%INPATH%\%FILE% remuxed.%OUTPUTFORMAT%"
 
+pause
 endlocal
