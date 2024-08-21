@@ -1,13 +1,13 @@
 setlocal
-cd "D:\Program Files\CLI Programs\realsr-ncnn-vulkan"
+cd "C:\Users\User Programs\CLI Programs\realsr-ncnn-vulkan"
 
-set "INPATH=C:\Users\ASUS\Desktop"
-set "INFILE=home02_cropped.png"
-set "OUTPATH=C:\Users\ASUS\Desktop"
+set "INPATH=C:\Users\User Files\Images\batch 3.0 - unprocessed"
+set "INFILE=23.jpg"
+set "OUTPATH=C:\Users\User Files\Images\batch 3.2 - upscaled"
 set "SCALE=4"
 set "MODEL=models-DF2K_JPEG"
 
-realsr-ncnn-vulkan.exe -v -i "%INPATH%\%INFILE%" -o "%OUTPATH%\%INFILE%_realsr_n%NOISELEVEL%_%SCALE%x_%MODEL%.png" -s %SCALE%
+realsr-ncnn-vulkan.exe -v -i "%INPATH%\%INFILE%" -o "%OUTPATH%\%INFILE%_realsr_%SCALE%x_%MODEL%.png" -s %SCALE%
 
 pause
 endlocal

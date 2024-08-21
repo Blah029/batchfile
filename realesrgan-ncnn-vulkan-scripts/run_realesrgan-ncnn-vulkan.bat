@@ -1,5 +1,5 @@
 setlocal
-cd "C:\Users\User Programs\CLI Programs\realcugan-ncnn-vulkan"
+cd "C:\Users\User Programs\CLI Programs\realesrgan-ncnn-vulkan"
 
 set "INPATH=C:\Users\User Files\Images\batch 3.0 - unprocessed"
 set "INFILE=23.jpg"
