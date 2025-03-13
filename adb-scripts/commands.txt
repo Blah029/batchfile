@@ -1,0 +1,14 @@
+start
+adb devices
+
+disable
+adb shell pm disable-user --user 0 <package>
+
+list disabled
+adb shell pm list packages -d
+
+enable
+adb shell pm enable <package>
+
+quit
+adb kill-server
