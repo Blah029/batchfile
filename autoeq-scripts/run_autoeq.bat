@@ -1,8 +1,8 @@
 setlocal
 cd "C:\Users\User\User Files\Documents\GitHub\autoeq-workspace"
 
-set "MODEL=JBL Tune 720BT S2 (Filk)"
-set "COMPENSATION=harman_over-ear_2018_wo_bass"
+set "MODEL=KZ ZSN Pro X (Corrected)"
+set "COMPENSATION=jm1_8db_4db"
 set "BASSBOOST=0"
 set "TREBLEBOOST=0"
 set "TILT=0"
