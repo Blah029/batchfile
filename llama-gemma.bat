@@ -8,7 +8,7 @@ set "VERBOSITY=3"
 
 :: Test
 
-llama-server -m "%MODEL%" -md "%MTP%" --spec-type draft-mtp -t 8 -c 0 -b 1024 -ub 512 -fa on -ctk q8_0 -ctv q8_0 -ngl all -mg 0 -fit on -fitt 1024 -lv %VERBOSITY% -ctkd q8_0 -ctvd q8_0 --temp 0.5 -td 8 -ngld all --host 127.0.0.1 --port 8080
+llama-server -m "%MODEL%" -md "%MTP%" -mm "%MMPROJ%" --spec-type draft-mtp -t 8 -c 0 -b 1024 -ub 512 -fa on -ctk q8_0 -ctv q8_0 -ngl all -mg 0 -fit on -fitt 1024 -lv %VERBOSITY% -ctkd q8_0 -ctvd q8_0 --temp 0.5 -td 8 -ngld all --host 127.0.0.1 --port 8080
 
 :: Min. batch size for full gpu utilisation -b 512 -ub 256
 :: Min. batch size for image input -b 1024 -ub 512 (not viable for 16 gb ram + 6 gb vram)
