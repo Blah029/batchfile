@@ -2,8 +2,8 @@
 setlocal
 
 set "MODEL_DIR=C:\Users\User Programs\CLI Programs\llama-cpp\models\gemma-4\unsloth"
-set "MODEL=%MODEL_DIR%\gemma-4-E4B-it-qat-UD-Q4_K_XL.gguf"
-set "MTP=%MODEL_DIR%\mtp-gemma-4-E4B-it-qat-Q8_0.gguf"
+set "MODEL=%MODEL_DIR%\gemma-4-E4B-it-UD-Q4_K_XL.gguf"
+set "MTP=%MODEL_DIR%\mtp-gemma-4-E4B-it-Q8_0.gguf"
 set "MMPROJ=%MODEL_DIR%\mmproj-gemma-4-E4B-it-F16.gguf"
 set "VERBOSITY=3"
 
@@ -23,9 +23,8 @@ llama-server ^
     -ctv q8_0 ^
     -ngl all ^
     -mg 0 ^
+    -fit off ^
     -lv %VERBOSITY% ^
-    -ctkd q8_0 ^
-    -ctvd q8_0 ^
     --temp 1.0 ^
     --top-k 64 ^
     --top-p 0.95 ^
